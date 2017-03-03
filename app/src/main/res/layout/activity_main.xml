@@ -15,17 +15,28 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="22sp"
+        android:textSize="@dimen/txtDp"
         android:text="@string/texto"
         android:textColor="@color/titilopadrao"
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/txtDp"
+        android:text="@string/txt2"
+        android:layout_margin="@dimen/marginTop"
+        android:textColor="@color/colorPrimaryDark"
 
         />
 
     <RadioGroup
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="2dp"
-        android:layout_marginBottom="15dp"
+        android:id="@+id/rGroup"
+        android:layout_margin="@dimen/marginPadrao"
+        android:layout_marginBottom="@dimen/marginBottom"
         >
 
 
@@ -61,13 +72,22 @@
 
     </RadioGroup>
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/txtDp"
+        android:text="@string/adicional"
+        android:layout_margin="@dimen/marginTop"
+        android:textColor="@color/colorPrimaryDark"
+
+        />
 
     <CheckBox
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/check"
         android:id="@+id/femea"
-        android:layout_marginTop="15dp"
+        android:layout_marginTop="@dimen/marginTop"
 
         />
 
@@ -90,6 +110,7 @@
         android:text="@string/botao"
         android:id="@+id/btncalcular"
         android:onClick="botao"
+        android:layout_margin="@dimen/marginBottom"
         />
 
     <TextView
@@ -99,8 +120,8 @@
         android:text="@string/resultado"
         android:textSize="50sp"
         android:layout_gravity="center_horizontal"
-        android:layout_margin="2dp"
-        android:layout_marginBottom="5dp"
+        android:layout_margin="@dimen/marginPadrao"
+        android:layout_marginBottom="@dimen/marginBottom"
         />
 
 </LinearLayout>
