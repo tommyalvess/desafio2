@@ -21,7 +21,6 @@
 
         />
 
-
     <RadioGroup
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -72,23 +71,18 @@
 
         />
 
-
     <CheckBox
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/adestrado"
-        android:id="@+id/adestrado"
-
-        />
+        android:id="@+id/adestrado"/>
 
     <CheckBox
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/vacinas"
         android:checked="true"
-        android:id="@+id/vacina"
-
-        />
+        android:id="@+id/vacina"  />
 
     <Button
         android:layout_width="match_parent"
@@ -108,9 +102,5 @@
         android:layout_margin="2dp"
         android:layout_marginBottom="5dp"
         />
-
-
-</RadioGroup>
-
 
 </LinearLayout>
