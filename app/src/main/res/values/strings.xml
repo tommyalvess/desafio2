@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">PetShop</string>
+    <string name="texto">Escolha Qual Cachorro Deseja: </string>
+    <string name="cachorro1">Border Collie R$ 800,00</string>
 </resources>
