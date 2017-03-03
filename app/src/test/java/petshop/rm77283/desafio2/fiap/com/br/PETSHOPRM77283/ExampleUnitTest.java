@@ -1,4 +1,4 @@
-package petshop.rm77283.desafio2.fiap.com.br.petshop;
+package petshop.rm77283.desafio2.fiap.com.br.PETSHOPRM77283;
 
 import org.junit.Test;
 

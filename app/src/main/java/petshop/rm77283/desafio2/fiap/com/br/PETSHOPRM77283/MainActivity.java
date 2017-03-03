@@ -1,21 +1,12 @@
-package petshop.rm77283.desafio2.fiap.com.br.petshop;
+package petshop.rm77283.desafio2.fiap.com.br.PETSHOPRM77283;
 
 
-import android.net.Uri;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
-import android.widget.Button;
 import android.widget.CheckBox;
-import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.TextView;
-import com.google.android.gms.appindexing.Action;
-import com.google.android.gms.appindexing.AppIndex;
-import com.google.android.gms.appindexing.Thing;
-import com.google.android.gms.common.api.GoogleApiClient;
-
-import static petshop.rm77283.desafio2.fiap.com.br.petshop.R.id.c1;
 
 public class MainActivity extends AppCompatActivity {
 

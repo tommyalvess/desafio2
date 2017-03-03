@@ -1,4 +1,4 @@
-package petshop.rm77283.desafio2.fiap.com.br.petshop;
+package petshop.rm77283.desafio2.fiap.com.br.PETSHOPRM77283;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
